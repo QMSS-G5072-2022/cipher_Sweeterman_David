@@ -38,4 +38,4 @@ def cipher(text, shift, encrypt=True):
             new_index = index + shift if encrypt == True else index - shift
             new_index %= len(alphabet)
             new_text += alphabet[new_index:new_index+1]
-    return new_tex
+    return new_text
